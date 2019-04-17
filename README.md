@@ -9,12 +9,12 @@
 
 **クイズの選択肢を追加**
 
-```
+```a.swift
 tmpArray.append(["問題文","選択肢1","選択肢2","選択肢3","正解の番号"])
 ```
 
 このままではクイズの順番が変わらないので
 
-```
+```a.swift
 quizArray = tmpArray.shuffled() //問題をシャッフルしてquizArrayに格納
 ```
